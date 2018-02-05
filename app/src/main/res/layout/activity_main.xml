@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- TODO 1 : Change from ConstraintLayout to LinearLayout -->
+<!-- TODO 2 : Delete all the attributes related to ConstraintLayout -->
+<!-- TODO 3 : Change orientation to vertical -->
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,13 +9,25 @@
     android:layout_height="match_parent"
     tools:context="com.androidtutors.textviewappearanceexample.MainActivity">
 
+    <!-- TODO 4 : Add an id textview_size_example to the textview with "Hello World!" -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- TODO 5 : Set the textSize attribute of textview_size_example to 30 sp -->
+    <!-- TODO 6 : Set the textColor attribute of textview_size_example to red -->
+    <!-- TODO 7 : Set the textStyle attribute of textview_size_example to bold -->
+    <!-- TODO 8 : Set the textAllCaps attribute of textview_size_example to true -->
+    <!-- TODO 10 : Add background color  to textview_size_example -->
+    <!-- TODO 11 : Add padding of 16 dp to textview_size_example -->
+    <!-- TODO 12 : Add margin of 16dp to textview_size_example -->
+    <!-- TODO 13 : Add another TextView with id textview_attribute_example and text "Text Appearance"-->
+    <!-- TODO 14 : set textAppearance to Material.Large -->
 
 </android.support.constraint.ConstraintLayout>
