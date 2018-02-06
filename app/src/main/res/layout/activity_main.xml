@@ -13,7 +13,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:id="@+id/textview_size_example"/>
 
     <!-- TODO 5 : Set the textSize attribute of textview_size_example to 30 sp -->
     <!-- TODO 6 : Set the textColor attribute of textview_size_example to red -->
