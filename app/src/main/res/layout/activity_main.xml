@@ -12,17 +12,19 @@
     <!-- TODO 4 : Add an id textview_size_example to the textview with "Hello World!" -->
     <!-- TODO 5 : Set the textSize attribute of textview_size_example to 30 sp -->
     <!-- TODO 6 : Set the textColor attribute of textview_size_example to red -->
+    <!-- TODO 7 : Set the textStyle attribute of textview_size_example to bold and italic -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:id="@+id/textview_size_example"
         android:textSize="30sp"
-        android:textColor="@android:color/holo_red_dark"/>
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold|italic"/>
 
 
 
-    <!-- TODO 7 : Set the textStyle attribute of textview_size_example to bold -->
+
     <!-- TODO 8 : Set the textAllCaps attribute of textview_size_example to true -->
     <!-- TODO 10 : Add background color  to textview_size_example -->
     <!-- TODO 11 : Add padding of 16 dp to textview_size_example -->
