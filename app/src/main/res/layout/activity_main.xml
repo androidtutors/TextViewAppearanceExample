@@ -30,14 +30,15 @@
         android:padding="16dp"
         android:layout_margin="16dp"/>
 
-
-
-
-
-
-
-
     <!-- TODO 12 : Add another TextView with id textview_attribute_example and text "Text Appearance"-->
     <!-- TODO 13 : set textAppearance to Material.Large -->
+
+    <TextView
+        android:id="@+id/textview_attribute_example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Appearance"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
 
 </LinearLayout>
